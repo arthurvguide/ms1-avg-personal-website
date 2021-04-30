@@ -27,9 +27,20 @@ h1, h2, h3 {
 #menu {
     letter-spacing: 1px;
 }
-
+#menu, #logo {
+    line-height: 40px;
+}
 #menu li {
     float:right;
     list-style-type: none;
     margin-right: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color:   ;
+
+}
+#menu a:hover{
+    border-bottom: 1px solid #111; /*  change color*/
 }
