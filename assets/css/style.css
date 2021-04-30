@@ -57,7 +57,7 @@ h1, h2, h3 {
     
     width:100%;
     height:500px;
-    display: ;  
+    
 }
 #home div {
     display: inline-block;
@@ -75,4 +75,38 @@ h1, h2, h3 {
     overflow: hidden;
     background-color:lightseagreen;
     
+}
+
+/*Resume Section*/
+#resume {
+    width:100%;
+    height: 500px;
+    background-color: mediumseagreen;
+}
+
+/*Portifolio Section*/
+#portifolio {
+    width:100%;
+    height: 500px;
+    background-color: rgb(165, 60, 179);
+}
+/*Client Section*/
+#client {
+    width:100%;
+    height: 500px;
+    background-color: rgb(179, 60, 66);
+}
+
+/*Contact Section*/
+#contact {
+    width:100%;
+    height: 500px;
+    background-color: rgb(137, 179, 60);
+}
+
+/*Footer*/
+footer {
+    width:100%;
+    height: 50px;
+    text-align: center;
 }
