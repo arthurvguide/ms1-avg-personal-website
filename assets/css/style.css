@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    
+    
+}
+h2  {
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
     color:
 }
+
 
 /*  Heading Logo   */
 
@@ -17,12 +27,13 @@ header{
     width:100%;
     height: 50px;
     text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+   
     
-}
-h1, h2, h3 {
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 1px;
-    color:
 }
 
 #logo {
@@ -54,25 +65,25 @@ h1, h2, h3 {
 
 /*Home Section*/
 #home{  
-    
     width:100%;
     height:500px;
     
+    
 }
 #home div {
-    display: inline-block;
+    display: inline-block; 
 }
 #intro {
     width:50%;
     height: 500px;
-    float: right;
+    float:right;
     background-color:magenta;
 }
 
 #pic-space{
     width:50%;
     height:500px;
-    overflow: hidden;
+    float:left;
     background-color:lightseagreen;
     
 }
@@ -80,33 +91,57 @@ h1, h2, h3 {
 /*Resume Section*/
 #resume {
     width:100%;
-    height: 500px;
+    height: 500px; 
     background-color: mediumseagreen;
+      
+}
+#education {
+    margin:auto;
+    text-align: left;  
+    background-color: white;
+    width:80%;
+    
+
+}
+#skillset {
+    margin:auto;
+    text-align: left;  
+    background-color: white;
+    width:80%;
+    
+}
+#skillset p {
+    text-align: center;
+    margin-right: 300px;
 }
 
 /*Portifolio Section*/
 #portifolio {
     width:100%;
     height: 500px;
-    background-color: rgb(165, 60, 179);
+    
+    background-color: mediumseagreen;
 }
 /*Client Section*/
 #client {
     width:100%;
     height: 500px;
-    background-color: rgb(179, 60, 66);
+    
+    background-color: mediumseagreen;
 }
 
 /*Contact Section*/
 #contact {
     width:100%;
     height: 500px;
-    background-color: rgb(137, 179, 60);
+    
+    background-color: mediumseagreen;
 }
 
 /*Footer*/
 footer {
     width:100%;
     height: 50px;
+    
     text-align: center;
 }
