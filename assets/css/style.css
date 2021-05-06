@@ -78,20 +78,35 @@ header{
     height: 500px;
     float:right;
     background-color:magenta;
+    
 }
+#intro span {
+    margin:0;
+    position:relative;
+}
+
 
 #pic-space{
     width:50%;
     height:500px;
     float:left;
-    background-color:lightseagreen;
+    background-color:black;
+    
+   
+}
+#pic-space img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    
+    
     
 }
 
 /*Resume Section*/
 #resume {
     width:100%;
-    
+    height:1000px;
     background-color: mediumseagreen;
       
 }
