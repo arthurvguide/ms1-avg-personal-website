@@ -3,8 +3,7 @@
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
-    margin-left: 7%;
-    margin-right: 7%;
+    
     margin-top: 0;
     margin-bottom: 0;
 
@@ -19,7 +18,11 @@ h1, h2, h3 {
     letter-spacing: 1px;
     color:
 }
-
+h4, h5, h6 {
+    font-family: Quicksand, sans-serif;
+    letter-spacing: 1px;
+    color:
+}
 
 /*  Heading Logo   */
 
@@ -69,15 +72,17 @@ header{
     height:500px;
     
     
+    
 }
-#home div {
-    display: inline-block; 
-}
+
 #intro {
     width:50%;
     height: 500px;
     float:right;
-    background-color:magenta;
+    background-color:white;
+    display:block;
+    margin:auto;
+    text-align: left;
     
 }
 #intro span {
@@ -90,12 +95,18 @@ header{
     width:50%;
     height:500px;
     float:left;
-    background-color:black;
+    background-color:white;
+    bottom: 0;
+    right:0;
+    left:0;
+    top:0;
+    margin:auto;
+    text-align: center;
     
    
 }
 #pic-space img{
-    width: 250px;
+    width: 250px; 
     height: 250px;
     border-radius: 5%;
     
