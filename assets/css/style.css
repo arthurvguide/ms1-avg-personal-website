@@ -3,25 +3,27 @@
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
-    
+    margin-left: 300px;
+    margin-right: 300px;
     margin-top: 0;
     margin-bottom: 0;
-
-    
+    font-size: x-large;
+    background:#495464;
+   
     
 }
 h2  {
     text-align: center;
 }
-h1, h2, h3 {
+h1, h2, h3, {
     font-family: Montserrat, sans-serif;
     letter-spacing: 1px;
-    color:
+    color:#000000
 }
-h4, h5, h6 {
+h4, h5, h6, p, li{
     font-family: Quicksand, sans-serif;
     letter-spacing: 1px;
-    color:
+    color: #bbbfca;
 }
 
 /*  Heading Logo   */
@@ -30,17 +32,16 @@ header{
     width:100%;
     height: 50px;
     text-align: center;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-top: 0;
-    margin-bottom: 0;
-    display: inline-block;
+    
    
+    display: inline-block;
+    
     
 }
 
 #logo {
     float:left;
+    margin-left: 15px;
     
 }
 
@@ -54,7 +55,7 @@ header{
 #menu li {
     float:right;
     list-style-type: none;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 #menu a {
@@ -71,19 +72,21 @@ header{
     width:100%;
     height:500px;
     
+    margin-bottom: 60px;
     
     
 }
 
 #intro {
     width:50%;
-    height: 500px;
+    height: 100%;
+    margin-top: 60px;
     float:right;
-    background-color:white;
+    background:#495464;
     display:block;
-    margin:auto;
-    text-align: left;
     
+    text-align: center;
+   
 }
 #intro span {
     margin:0;
@@ -93,67 +96,76 @@ header{
 
 #pic-space{
     width:50%;
-    height:500px;
+    height: 100%;
+    margin-top: 60px;
     float:left;
-    background-color:white;
-    bottom: 0;
-    right:0;
-    left:0;
-    top:0;
-    margin:auto;
+    background:#495464;
+    
     text-align: center;
     
    
 }
 #pic-space img{
+    
     width: 250px; 
     height: 250px;
+    margin-top: 30px;
     border-radius: 5%;
-    
+    border:solid 5px #bbbfca;
     
     
 }
 
 /*Resume Section*/
 #resume {
+    margin-top: 100px;
     width:100%;
-    height:1000px;
-    background-color: mediumseagreen;
+    text-align: center;
+    padding: 15px;
       
+}
+#resume h4{
+    color:#000000
+    
 }
 #education {
     margin:auto;
     text-align: left;  
-    background-color: white;
-    width:80%;
-    
+    padding: 15px;
+    width:100%;
+    background:#495464;
 
 }
 #skillset {
     margin:auto;
     text-align: left;  
-    background-color: white;
-    width:80%;
-    
+    padding: 15px;
+    width:100%;
+    background:#495464;
 }
 #skillset p {
     text-align: center;
     
 }
 
+
 /*Portifolio Section*/
 #portifolio {
     width:100%;
     height: 500px;
+    text-align: center;
     
-    background-color: mediumseagreen;
+}
+#portifolio h2 {
+    font-size: 60%;
+    
 }
 /*Client Section*/
 #client {
     width:100%;
     height: 500px;
     
-    background-color: mediumseagreen;
+    
 }
 
 /*Contact Section*/
@@ -161,7 +173,7 @@ header{
     width:100%;
     height: 1000px;
     
-    background-color: mediumseagreen;
+    
 }
 #contact div {
     width: 30%;
@@ -185,4 +197,8 @@ footer {
     
     text-align: center;
 }
+
+
+
+
 
