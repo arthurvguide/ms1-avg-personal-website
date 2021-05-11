@@ -26,13 +26,20 @@ h4, h5, h6, p, li{
     color: #bbbfca;
 }
 
+.class-intro{
+        background: rgba(232, 232, 232, 0.4);
+}
+.class-button{
+    background: rgba(232, 232, 232, 0.4);
+    color:black
+}
 /*  Heading Logo   */
 
 header{
     width:100%;
     height: 50px;
     text-align: center;
-    
+    color:black;
    
     display: inline-block;
     
@@ -42,12 +49,13 @@ header{
 #logo {
     float:left;
     margin-left: 15px;
-    
+    color:black;  
 }
 
 /*  Navigation Links ( menu )  */
 #menu {
     letter-spacing: 1px;
+   
 }
 #menu, #logo {
     line-height: 40px;
@@ -60,7 +68,7 @@ header{
 
 #menu a {
     text-decoration: none;
-    color:   ;
+    color:black ;
 
 }
 #menu a:hover{
@@ -71,7 +79,6 @@ header{
 #home{  
     width:100%;
     height:500px;
-    
     margin-bottom: 60px;
     
     
@@ -150,16 +157,30 @@ header{
 
 
 /*Portifolio Section*/
-#portifolio {
+#portfolio {
     width:100%;
     height: 500px;
     text-align: center;
     
 }
-#portifolio h2 {
-    font-size: 60%;
+
+.img-project{
+    float:left;
+    width:50%;
+    height: 600px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.img-project img {
     
 }
+.label-project {
+    float:right;
+    width:50%;
+    height: 600px;
+    margin-top: 60px;
+}
+
 /*Client Section*/
 #client {
     width:100%;
@@ -167,6 +188,7 @@ header{
     
     
 }
+
 
 /*Contact Section*/
 #contact {
