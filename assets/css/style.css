@@ -181,6 +181,7 @@ header{
     margin-top: 60px;
 }
 
+
 /*Client Section*/
 #client {
     width:100%;
@@ -210,17 +211,14 @@ input[type=text], select, textarea, input[type=email]  {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 
 /*Footer*/
-footer {
-    width:100%;
-    height: 50px;
+footer{
+    height:50px;
     
-    text-align: center;
+
 }
-
-
 
 
 
