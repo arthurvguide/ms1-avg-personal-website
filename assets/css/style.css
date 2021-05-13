@@ -171,7 +171,7 @@ header{
     width:100%;
     height: 500px;
     text-align: center;
-    
+   
 }
 
 .img-project{
@@ -194,14 +194,14 @@ header{
 #client{
     width:100%;
     height:1000px;
-    display:inline;
-    overflow: hidden;
+    display:block;
+    overflow:hidden;
 }
 .container {
     display:flex;
     align-items: center;
     width:100%;
-    margin:15px;
+    margin:35px 15px;
 }
 .container p {
     margin-left: 15px;
