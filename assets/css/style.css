@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300&display=swap');
 
-html{
-    height:100%;
-}
+
 body {
     
     font-weight: 300;
@@ -13,19 +11,17 @@ body {
     font-size: x-large;
     background:#495464;
    
-    min-height: 100%;
-    display:flex;
-    flex-direction: column;
+    
 
     
 }
 h2  {
     text-align: center;
 }
-h1, h2, h3, {
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 1px;
-    color:#000000
+h1, h2, h3{
+    font-family:Montserrat, sans-serif;
+    letter-spacing:1px;
+    color:black;
 }
 h4, h5, h6, p, li{
     font-family: Quicksand, sans-serif;
@@ -35,10 +31,12 @@ h4, h5, h6, p, li{
 
 .class-intro{
         background: rgba(232, 232, 232, 0.4);
+        text-align: center;
 }
 .class-button{
     background: rgba(232, 232, 232, 0.4);
     color:black
+   
 }
 i {
     background:#495464;
@@ -183,9 +181,7 @@ header{
     overflow: hidden;
     margin-top: 60px;
 }
-.img-project img {
-    
-}
+
 .label-project {
     float:right;
     width:50%;
@@ -195,22 +191,46 @@ header{
 
 
 /*Client Section*/
-#client {
+#client{
     width:100%;
-    height: 500px;
-    
-    
+    height:1000px;
+    display:inline;
+    overflow: hidden;
 }
+.container {
+    display:flex;
+    align-items: center;
+    width:100%;
+    margin:15px;
+}
+.container p {
+    margin-left: 15px;
+    font-size:medium;
+    text-align: justify;
+}
+.container img {
+    border-radius: 50%;
+    margin-left: 15px;
+}
+    
+    
+
+
+
+
+
+
+
 
 
 /*Contact Section*/
 #contact {
     width:100%;
-    height: 1000px;
-    
-    
+    height: 500px;
+     
 }
-#contact div {
+
+.form {
     width: 30%;
     margin:auto;
 }
