@@ -316,6 +316,25 @@ footer li{
        
        
     }
+    /*Client Section*/
+#client{
+    height:1150px;  
+}
+.container {
+    display:block; 
+    align-items: none; 
+    width:100%; 
+    margin:35px 15px;
+}
+.container p {
+    margin-left: 0px;  
+    display:block; 
+    width:100%; 
+}
+.container img { 
+    display:block; 
+}
+
 
 }
 
@@ -344,6 +363,8 @@ footer li{
     margin-bottom: 300px;
     float:none;  
 }
+
+
 
 }  
 
