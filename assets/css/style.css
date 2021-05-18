@@ -240,17 +240,19 @@ header{
 }
 #my-details{
     width:400px;
-    float:left;
+    float:right;
      font-size: medium;
     text-align: justify;
     padding-top: 80px;
+    margin-left: 40px;
+    margin-top: 40px;
     
 }
 .form {
     width: 400px;
-    margin:auto;
-    float:right;
-    
+    margin-right: 40px;
+    float:left;
+    font-family: Montserrat, sans-serif;;
    
 }
 /* Contact form inputs with type="text", type="email"  and textareas */
