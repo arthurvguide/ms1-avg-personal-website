@@ -246,11 +246,11 @@ header{
     
 }
 .form {
-    width: 400px;
+    width: 300px;
     margin-right: 40px;
     float:left;
     font-family: Montserrat, sans-serif;;
-   
+    font-size: medium;
 }
 /* Contact form inputs with type="text", type="email"  and textareas */
 input[type=text], select, textarea, input[type=email]  {
@@ -274,6 +274,7 @@ footer {
     text-align: center;
     margin-top: 80px;
     display:block;
+    position:fixed;
 }
 
 footer li{
@@ -291,31 +292,7 @@ footer li{
     }
 }
 @media (max-width: 768px) {
-    /*Contact Section*/
-    #contact {
-        width:100%;
-        height: 800px;
-        display:block;
-          
-    }
-    #my-details{
-        width:100%;
-         font-size: medium;
-        text-align: justify;
-        float:none;
-        padding-top: 0px;
-        margin-left: 10px;
-        margin-top: 0px;
-        
-    }
-    .form {
-        
-        margin-right: 0px;
-        margin-left: 10px;
-        float:none;
-       
-       
-    }
+  
     /*Client Section*/
 #client{
     height:1150px;  
@@ -334,16 +311,48 @@ footer li{
 .container img { 
     display:block; 
 }
-
+  /*Contact Section*/
+  #contact {
+    width:100%;
+    height: 800px;
+    display:block;
+      
+}
+#my-details{
+    width:100%;
+     font-size: medium;
+    text-align: justify;
+    float:none;
+    padding-top: 0px;
+    margin-left: 10px;
+    margin-top: 0px;
+    
+}
+.form {
+    
+    margin-right: 0px;
+    margin-left: 10px;
+    float:none;
+   
+   
+}
+/* Small General Adjusts*/
+#portfolio {
+   padding-left: 20px;
+    
+}
 
 }
 
 @media (max-width: 450px) {
 
+body {
+    font-size: medium;
+}
 /*Home Section*/
 #home{  
     width:100%;
-    height:900px;
+    height:630px;
     margin-bottom: 0px;
     display:block;
     
@@ -351,7 +360,7 @@ footer li{
 #intro {
     width:100%;
     height: 300px;
-    margin-top: 100px;
+    margin-top: 0px;
     float:none;  
     display:block;
     padding-top: 20px; 
@@ -359,16 +368,16 @@ footer li{
 #pic-space{
     width:100%;
     height: 300px;
-    margin-top: 60px;
-    margin-bottom: 300px;
+    margin-top: 0px;
+    margin-bottom: 150px;
     float:none;  
 }
 
 /*Portifolio Section*/
 #portfolio {
-   
-    height: 3200px; 
-    
+  
+    height: 2950px; 
+    padding: 20px;
 }
 
 .img-project{
