@@ -6,8 +6,8 @@
 
 body, html {
     height: 100%;
-    margin-right: 200px;
-    margin-left:200px;
+   margin-left: 200px;
+   margin-right: 200px;
 }
 h1, h2, h3{
     font-family:Montserrat, sans-serif;
@@ -41,8 +41,19 @@ i {
     background:white;
     color:black;
 }
+.sub-tittle {
+    text-align: center;
+}
+.justify {
+    text-align: justify;
+}
 
-
+.container {
+    display:flex;
+    padding:64px 32px;
+    justify-content: space-evenly;
+    align-items: center;
+}
 /*  Heading Logo   */
 
 header{
@@ -87,11 +98,7 @@ header{
 
 /*Intro Section*/
 
-.container {
-    display:flex;
-    align-items: center;
-    padding:64px 32px;
-}
+
 .img-developer{
     border-radius: 5%;
 }
@@ -99,8 +106,27 @@ header{
     text-align: justify;
     padding: 20px;
 }
+/* Landscape Image*/
+
+.background-image {
+   
+    background-image:  url("../images/freddie-marriage-vSchPA-YA_A-unsplash.jpg");
+   
+    height: 50%;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 
 /*Resume Section*/
+.text-align {
+    text-align: justify;
+}
+.test{
+    justify-content: space-evenly
+}
 
 
 
