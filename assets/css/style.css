@@ -48,12 +48,9 @@ i {
     text-align: justify;
 }
 
-.container {
-    display:flex;
-    padding:64px 32px;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
+
+
 /*  Heading Logo   */
 
 header{
@@ -98,6 +95,12 @@ header{
 
 /*Intro Section*/
 
+.container-intro{
+    display:flex;
+    padding:64px 32px;
+    align-items: center;
+}
+
 
 .img-developer{
     border-radius: 5%;
@@ -127,6 +130,11 @@ header{
 .test{
     justify-content: space-evenly
 }
+.container-skillset{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 
 
@@ -136,19 +144,19 @@ header{
     margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
+  
   .row,
   .row > .column {
     padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
+  
   .column {
     float: left;
     width: 25%;
   }
   
-  /* Clear floats after rows */
+  
   .row:after {
     content: "";
     display: table;
@@ -166,18 +174,51 @@ header{
   }
 
 /*Client Section*/
-#client{
-    width:100%;
-    height:630px;
-    display:block;
-    overflow:hidden;
-}
-
-
-    
-    
-
-
+.testimonials{
+    text-align: center;
+  }
+  .interior{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  .border{
+    width: 160px;
+    height: 5px;
+    background: black;
+    margin: 26px auto;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .collum-test{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .testimonial{
+    padding: 30px;
+  }
+  .testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .user{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .stars{
+    margin-bottom: 20px;
+  }
+  
 
 
 
@@ -210,7 +251,7 @@ header{
     font-family: Montserrat, sans-serif;;
     font-size: medium;
 }
-/* Contact form inputs with type="text", type="email"  and textareas */
+
 input[type=text], select, textarea, input[type=email]  {
   width: 100%;
   padding: 12px; 
@@ -242,117 +283,6 @@ footer li{
     
 }
 
-@media (max-width: 1024px) {
-    body {     
-    margin-left: 0px;
-    margin-right: 0px;
-    
-    }
-}
-@media (max-width: 768px) {
-  
-    /*Client Section*/
-#client{
-    height:1150px;  
-}
-.container {
-    display:block; 
-    align-items: none; 
-    width:100%; 
-    margin:35px 15px;
-}
-.container p {
-    margin-left: 0px;  
-    display:block; 
-    width:100%; 
-}
-.container img { 
-    display:block; 
-}
-  /*Contact Section*/
-  #contact {
-    width:100%;
-    height: 800px;
-    display:block;
-      
-}
-#my-details{
-    width:100%;
-     font-size: medium;
-    text-align: justify;
-    float:none;
-    padding-top: 0px;
-    margin-left: 10px;
-    margin-top: 0px;
-    
-}
-.form {
-    
-    margin-right: 0px;
-    margin-left: 10px;
-    float:none;
-   
-   
-}
-/* Small General Adjusts*/
-#portfolio {
-   padding-left: 20px;
-    
-}
-
-}
-
-@media (max-width: 450px) {
-
-body {
-    font-size: medium;
-}
-/*Home Section*/
-#home{  
-    width:100%;
-    height:630px;
-    margin-bottom: 0px;
-    display:block;
-    
-}
-#intro {
-    width:100%;
-    height: 300px;
-    margin-top: 0px;
-    float:none;  
-    display:block;
-    padding-top: 20px; 
-}
-#pic-space{
-    width:100%;
-    height: 300px;
-    margin-top: 0px;
-    margin-bottom: 150px;
-    float:none;  
-}
-
-/*Portifolio Section*/
-#portfolio {
-  
-    height: 2950px; 
-    padding: 20px;
-}
-
-.img-project{
-    float:none; 
-    width:100%;
-    margin-top: 0px;
-}
-
-.label-project {
-    float:none; 
-    width:100%; 
-    height: 350px;
-    margin-top: 0px;
-    padding-top: 0px;
-}
 
 
-
-}  
 
