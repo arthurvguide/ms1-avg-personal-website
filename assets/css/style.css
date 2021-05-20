@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300&display=swap');
 
+* {
+    box-sizing: border-box;
+  }
 
 body, html {
     height: 100%;
@@ -23,11 +26,7 @@ h4, h5, h6, p, li{
     text-transform: uppercase;
 }
 
-.class-intro{
-        background: rgba(232, 232, 232, 0.4);
-        text-align: center;
-        
-}
+
 .class-button {
     background-color: black
     border: none;
@@ -101,67 +100,44 @@ header{
     padding: 20px;
 }
 
-
-
-
-
 /*Resume Section*/
-#resume {
-    margin-top: 100px;
-    width:100%;
-    text-align: center;
-    padding: 15px;
-      
-}
-#resume h4{
-    color:#000000
-    
-}
-#education {
-    margin:auto;
-    text-align: left;  
-    padding: 15px;
-    width:100%;
-    background:white;
 
-}
-#skillset {
-    margin:auto;
-    text-align: left;  
-    padding: 15px;
-    width:100%;
-    background:white;
-}
-#skillset p {
-    text-align: center;
-    
-}
 
 
 /*Portifolio Section*/
-#portfolio {
-    width:100%;
-    height: 500px;
-    text-align: center;
-   
-}
 
-.img-project{
-    float:left;
-    width:50%;
-    height: 600px;
-    overflow: hidden;
-    margin-top: 60px;
-}
-
-.label-project {
-    float:right;
-    width:50%;
-    height: 600px;
-    margin-top: 60px;
-    padding-top: 40px;
-}
-
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+  }
+  .content img {
+      border-radius: 5%;
+  }
 
 /*Client Section*/
 #client{
