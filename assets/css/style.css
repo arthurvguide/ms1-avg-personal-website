@@ -27,16 +27,7 @@ h4, h5, h6, p, li{
 }
 
 
-.class-button {
-    background-color: black
-    border: none;
-    color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-   
-}
+
 i {
     background:white;
     color:black;
@@ -220,34 +211,15 @@ header{
   }
   
 
-
-
-
-
-
-
 /*Contact Section*/
-#contact {
-    width:100%;
-    height: 800px;
-    display:inline-block;
-   
-     
-}
-#my-details{
-    width:400px;
-    float:right;
-     font-size: medium;
-    text-align: justify;
-    
-    margin-left: 40px;
-    margin-top: 40px;
-    
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
 }
 .form {
-    width: 300px;
-    margin-right: 40px;
-    float:left;
+    width: 100%;
     font-family: Montserrat, sans-serif;;
     font-size: medium;
 }
@@ -255,15 +227,21 @@ header{
 input[type=text], select, textarea, input[type=email]  {
   width: 100%;
   padding: 12px; 
-  border: 1px solid black; 
+  margin:15px;
+  border: 1px solid grey; 
   border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-bottom: 2px; 
+  box-sizing: border-box;  
   resize: vertical; 
-  background:#bbbfca;
+  color:black;
 
 }
-
+.submit-button {
+  background-color: #1a1919;
+  border: #1a1919;
+  color: #fafafa;
+  display: block;
+  margin: 0 aut;
+}
 
 
 /*    Footer          */
