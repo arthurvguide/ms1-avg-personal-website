@@ -1,32 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300&display=swap');
 
 
-body {
-    
-    font-weight: 300;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: x-large;
-    background:#495464;
-   
-    
-
-    
-}
-h2  {
-    text-align: center;
+body, html {
+    height: 100%;
+    margin-right: 200px;
+    margin-left:200px;
 }
 h1, h2, h3{
     font-family:Montserrat, sans-serif;
     letter-spacing:1px;
     color:black;
+    font-weight:300;
 }
 h4, h5, h6, p, li{
     font-family: Quicksand, sans-serif;
     letter-spacing: 1px;
-    color: #bbbfca;
+    color: black;
+    font-weight:300;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 .class-intro{
@@ -34,8 +28,8 @@ h4, h5, h6, p, li{
         text-align: center;
         
 }
-.class-button{
-    background-color: #bbbfca;
+.class-button {
+    background-color: black
     border: none;
     color: black;
     padding: 10px 20px;
@@ -45,7 +39,7 @@ h4, h5, h6, p, li{
    
 }
 i {
-    background:#495464;
+    background:white;
     color:black;
 }
 
@@ -63,7 +57,7 @@ header{
     
 }
 
-#logo {
+.logo {
     float:left;
     margin-left: 15px;
     color:black;  
@@ -92,49 +86,24 @@ header{
     border-bottom: 1px solid #111; /*  change color*/
 }
 
-/*Home Section*/
-#home{  
-    width:100%;
-    height:540px;
-    margin-bottom: 60px;
-    
-    
-}
+/*Intro Section*/
 
-#intro {
-    width:50%;
-    height: 100%;
-    margin-top: 60px;
-    float:right;
-    background:#495464;
-    display:block;
-    padding-top: 70px;
-    text-align: center;
-   
+.container {
+    display:flex;
+    align-items: center;
+    padding:64px 32px;
+}
+.img-developer{
+    border-radius: 5%;
+}
+.right-text {
+    text-align: justify;
+    padding: 20px;
 }
 
 
-#pic-space{
-    width:50%;
-    height: 100%;
-    margin-top: 60px;
-    float:left;
-    background:#495464;
-    
-    text-align: center;
-    
-   
-}
-#pic-space img{
-    
-    width: 250px; 
-    height: 250px;
-    margin-top: 30px;
-    
-    
-    
-    
-}
+
+
 
 /*Resume Section*/
 #resume {
@@ -153,7 +122,7 @@ header{
     text-align: left;  
     padding: 15px;
     width:100%;
-    background:#495464;
+    background:white;
 
 }
 #skillset {
@@ -161,7 +130,7 @@ header{
     text-align: left;  
     padding: 15px;
     width:100%;
-    background:#495464;
+    background:white;
 }
 #skillset p {
     text-align: center;
@@ -201,21 +170,8 @@ header{
     display:block;
     overflow:hidden;
 }
-.container {
-    display:flex;
-    align-items: center;
-    width:100%;
-    margin:35px 15px;
-}
-.container p {
-    margin-left: 15px;
-    font-size:medium;
-    text-align: justify;
-}
-.container img {
-    border-radius: 50%;
-    margin-left: 15px;
-}
+
+
     
     
 
@@ -240,7 +196,7 @@ header{
     float:right;
      font-size: medium;
     text-align: justify;
-    padding-top: 80px;
+    
     margin-left: 40px;
     margin-top: 40px;
     
