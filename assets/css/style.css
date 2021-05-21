@@ -193,14 +193,15 @@ i {
 /*Contact Section*/
 
 .contact-container {
-    display: flex;
+    
     flex-direction: column;
     justify-content: center;
     margin: auto;
     
 }
 .form {
-    width: 100%;
+    
+   width: 100%;
     font-family: Montserrat, sans-serif;;
     font-size: medium;
     
@@ -215,10 +216,9 @@ input[type=text], select, textarea, input[type=email]  {
   box-sizing: border-box;  
   resize: vertical; 
   color:black;
-
+  font-family: Quicksand, sans-serif;
 }
 .submit-button {
-  
   background-color: #070707; 
   border: none;
   color: white;
@@ -229,7 +229,7 @@ input[type=text], select, textarea, input[type=email]  {
 }
 
 
-/*    Footer          */
+/*    Footer     */
 footer {
   display: flex;
   flex-direction: row;
@@ -286,3 +286,4 @@ body {
     width: 100%;
   }
 }
+
