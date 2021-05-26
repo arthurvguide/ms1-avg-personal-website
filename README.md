@@ -1,45 +1,32 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Arthur's Portfolio
+Arthur's Portfolio is a site created to be used as introducer for my future employers and clients. They will be able to find out professional information about me and all the projects I worked on as a software developer so far. It can be viewed on the follow link : https://arthurvguide.github.io/ms1-avg-personal-website/. 
+## Features
 
-Welcome arthurvguide,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+##Technologies
+HTML: Used to build all the webpage of this website.
+CSS Used to style my webpages.
+Balsami: Used to create wireframes to my project.
+W3C Markup validation service: used to check my HTML codes for validation https://validator.w3.org/.
+Chrome Dev Tool: Used extensively to test and debug my code. https://developers.google.com/web/tools/chrome-devtools.
+Gitpod: is an online IDE for GitHub and GitLab that launches ready-to-code dev environments for any project with a single click. www.gitpod.io.
+Github: provides hosting for software development version control using Git. www.github.com.
+## Testing
+The HTML code was tested using the W3C Markup Validation Service. It has passed with no errors, but some warnings. 
+The CSS code was tested using  W3C CSS Validation Service . It has passed with no errors. 
+The Responsive Design was tested using Chrome Dev Tool and http://whatismyscreenresolution.net/multi-screen-test. It looks responsive on mobile, tablets and large screen devices.
+Both links to download a PDF of my CV in a new tab and leaves the website visible in its existing tab.
+Contact form: My contact form is not currently submitting as it is not linked to a webmail server and requires some Javascript knowledge.
+## Deployment
+The site was deployed to GitHub pages. Every change has been added, commited and pushed onto the GitHub platform.
+To get my project deployed I had to open my GitHub repository, navigate to the Settings tab and then on GitHub Pages I selected the master branch. Once It has been done, the page refreshed with a link to be viewed ( https://arthurvguide.github.io/ms1-avg-personal-website/)
 
-## Gitpod Reminders
+## Credits
+#### Content
+Content for Education Section was obtained from https://codeinstitute.net/
+All others content was written by me.
+#### Media
+Home Section picture (Arthur's picture) was taken by me.
+Professional Skillset picture was obtained from https://codeinstitute.net/.v
+All others images came from https://unsplash.com/. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!

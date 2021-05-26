@@ -81,7 +81,7 @@ i {
 }
 /* Landscape Image*/
 
-.background-image {
+.landscape-image {
    
     background-image:  url("../images/freddie-marriage-vSchPA-YA_A-unsplash.jpg");
    
@@ -226,6 +226,7 @@ input[type=text], select, textarea, input[type=email]  {
   text-align: center;
   text-decoration: none; 
   letter-spacing: 2px;
+  float:right;
 }
 
 
@@ -236,9 +237,7 @@ footer {
   justify-content: space-around;
   margin-top: 40px;
 }
-footer i {
-    size:5x;
-}
+
 footer li{
     list-style-type: none;
     display:inline;
@@ -265,6 +264,7 @@ body {
 @media screen and (max-width: 680px) {
   .container-intro {
     flex-direction: column; 
+    
   }
     
   .container-skillset {
@@ -282,6 +282,14 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+  
+  .right-text {
+    padding:0;
+  }
+  
+  .container-intro{
+    padding:0;
+  }
   .column {
     width: 100%;
   }
