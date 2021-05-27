@@ -28,7 +28,9 @@ h4, h5, h6, p, li{
 }
 
 
-
+a {
+  color:black;
+}
 i {
     background:white;
     color:black;
@@ -75,6 +77,7 @@ i {
 }
 .navbar-links li:hover {
   background-color: #8b8b8b85;
+ 
 }
 
 .toggle-button {
@@ -118,7 +121,7 @@ i {
     background-image:  url("../images/landscapeimage.jpg");
    
     height: 50%;
-   
+   width:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,6 +141,10 @@ i {
     align-items: center;
 }
 
+.container-education {
+  text-align: justify;
+  
+}
 
 
 /*Portifolio Section*/
@@ -233,7 +240,7 @@ i {
 }
 .form {
     
-   width: 100%;
+   width: 90%;
     font-family: Montserrat, sans-serif;;
     font-size: medium;
     
@@ -267,7 +274,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 footer li{
@@ -285,15 +292,21 @@ body {
 }
   
 }
-
+@media screen and (max-width: 770px) {
+  .responsive-margin {
+    margin:20px; 
+  }
+}
 @media screen and (max-width: 770px) {
   .column {
    width: 50%;
   }
+  
 }
 
 
 @media screen and (max-width: 680px) {
+  
   .container-intro {
     flex-direction: column; 
     
@@ -310,13 +323,23 @@ body {
       flex: 100%;
       max-width: 100%;
     }
+    
 
 }
 
 @media screen and (max-width: 500px) {
   
+  
+  .responsive-margin {
+      margin:10px;
+  }
   .right-text {
     padding:0;
+    margin:10px;
+   
+  }
+  .container-education {
+    margin:10px;
   }
   
   .container-intro{
