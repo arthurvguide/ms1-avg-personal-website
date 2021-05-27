@@ -73,7 +73,7 @@ Professional Skillset picture was obtained from [Code Institute](https://codeins
 All others images came from [Unsplash](https://unsplash.com/.).
 
 ## Screenshots
-![](/assets/images/Screen1)
-![](/assets/images/Screen2)
-![](/assets/images/Screen3)
-![](/assets/images/Screen4)
+![](/assets/images/Screen1.JPG)
+![](/assets/images/Screen2.JPG)
+![](/assets/images/Screen3.JPG)
+![](/assets/images/Screen4.JPG)
