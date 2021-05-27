@@ -29,6 +29,33 @@ The idea of creating this website is to approach me to future employers and clie
 
 
 ## Features
+### The website has below features:
+#### Navigation bar
+Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices by a change into a burger menu.
+
+Navigation scheme:
+On left side there is a logo. It can be used as navigation link to the main page. On right side there are four links which contains: Home, Resume, Portfolio, Clients, Contact.
+
+#### Home
+On this section there is a picture of mine and a brief introduction about me.
+
+#### Resume 
+On this section user will find information abou my education and about my professional skills as a software developer.
+
+#### Portfolio
+On this section user will find all the projects I have worked so far.
+** Currently projects are fakes, I will add real projects in the future.
+
+#### Clients
+On this section user will find my clients testimonial.
+
+#### Contact 
+On this section user will be able to contact me using my contact form.
+** Not working at the moment
+
+#### Footer
+On this section user will be able to access my social media links.
+
 
 
 ## Technologies
