@@ -32,8 +32,21 @@ The idea of creating this website is to approach me to future employers and clie
 There are two wireframes guided the end design of this project, one for mobile devices, and the second scales up this for larger devices both made using balsamiq.
 
 [Large-Devices](/assets/download/Large-Screen.pdf)
+
 [Small-Devices](/assets/download/Small-Screen.pdf)
 
+### Surface
+#### Colors
+- background color: #FFFFFF
+- font color: #000000
+
+#### Fonts
+For titles: Montserrat, sans-serif;
+
+For sub-titles and paragraphs: Quicksand, sans-serif;
+
+#### Images
+Images come from [Unsplash](https://unsplash.com/.).
 ## Features
 ### The website has below features:
 #### Navigation bar
