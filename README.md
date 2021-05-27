@@ -22,11 +22,17 @@ The idea of creating this website is to approach me to future employers and clie
 - I want my customers to be able to learn how to use my website intuitively and easily.
 - I would to like maintain relationship with potential employers and clients.
 
-##### As a new customer:
+##### As a prospective employer:
 - I wish to find professional information about Arthur.
 - I would like to take a look at Arthur's projects.
 - I want to get in touch with Arthur.
 
+## Structure
+### Wireframes
+There are two wireframes guided the end design of this project, one for mobile devices, and the second scales up this for larger devices both made using balsamiq.
+
+[Large-Devices](/assets/download/Large-Screen.pdf)
+[Small-Devices](/assets/download/Small-Screen.pdf)
 
 ## Features
 ### The website has below features:
@@ -43,7 +49,8 @@ On this section there is a picture of mine and a brief introduction about me.
 On this section user will find information abou my education and about my professional skills as a software developer.
 
 #### Portfolio
-On this section user will find all the projects I have worked so far.
+On this section user will find all the projects I have worked so far as a software developer.
+
 ** Currently projects are fakes, I will add real projects in the future.
 
 #### Clients
@@ -51,6 +58,7 @@ On this section user will find my clients testimonial.
 
 #### Contact 
 On this section user will be able to contact me using my contact form.
+
 ** Not working at the moment
 
 #### Footer
@@ -61,7 +69,7 @@ On this section user will be able to access my social media links.
 ## Technologies
 HTML: Used to build all the webpage of this website.
 
-CSS Used to style my webpages.
+CSS: Used to style my webpages.
 
 Balsamiq: Used to create wireframes to my project.
 

@@ -292,14 +292,13 @@ body {
 }
   
 }
-@media screen and (max-width: 770px) {
-  .responsive-margin {
-    margin:20px; 
-  }
-}
+
 @media screen and (max-width: 770px) {
   .column {
    width: 50%;
+  }
+  .responsive-margin {
+    margin:20px; 
   }
   
 }
