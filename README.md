@@ -92,8 +92,7 @@ Balsamiq: Used to create wireframes to my project.
 
 [Github](www.github.com.): provides hosting for software development version control using Git. 
 ## Testing
-The HTML code was tested using the W3C Markup Validation Service. It has passed with no errors, but some warnings. 
-
+The HTML code was tested using the W3C Markup Validation Service. It has passed with no errors, but one warning about my Landscape Section (not relevant).
 The CSS code was tested using  W3C CSS Validation Service. It has passed with no errors. 
 
 The Responsive Design was tested using Chrome Dev Tool and [MyScreenResolution](http://whatismyscreenresolution.net/multi-screen-test.). It looks responsive on mobile, tablets and large screen devices.
