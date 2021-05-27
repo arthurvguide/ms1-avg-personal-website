@@ -5,7 +5,7 @@ Arthur's Portfolio is a site created to be used as introducer for my future empl
 ## UX
 
 ### Website owner business goals
-The idea of creating this website is to approach me to future employers and clients having the opportunity to see my portfolio, subsequently wishing to hire me for a project, or for a permanent job opportunity as a software developer. The creating of this site itself already is a way to present my programming skills. 
+The idea of creating this website is to approach me to future employers and clients, having the opportunity to see my portfolio, subsequently wishing to hire me for a project, or for a permanent job offer as a software developer. The creating of this site itself already is a way to present my programming skills. 
 
 #### User goals: 
 
@@ -38,8 +38,6 @@ CSS Used to style my webpages.
 
 Balsamiq: Used to create wireframes to my project.
 
-[W3C Markup validation service](https://validator.w3.org/): used to check my HTML codes for validation.
-
 [Chrome Dev Tool](https://developers.google.com/web/tools/chrome-devtools.) : Used extensively to test and debug my code. 
 
 [Gitpod](www.gitpod.io.): is an online IDE for GitHub and GitLab that launches ready-to-code dev environments for any project with a single click. 
@@ -48,13 +46,13 @@ Balsamiq: Used to create wireframes to my project.
 ## Testing
 The HTML code was tested using the W3C Markup Validation Service. It has passed with no errors, but some warnings. 
 
-The CSS code was tested using  W3C CSS Validation Service . It has passed with no errors. 
+The CSS code was tested using  W3C CSS Validation Service. It has passed with no errors. 
 
 The Responsive Design was tested using Chrome Dev Tool and [MyScreenResolution](http://whatismyscreenresolution.net/multi-screen-test.). It looks responsive on mobile, tablets and large screen devices.
 
 Both links to download a PDF of my CV in a new tab and leaves the website visible in its existing tab.
 
-Contact form: My contact form is not currently submitting as it is not linked to a webmail server and requires some Javascript knowledge.
+** My contact form is not currently submitting as it is not linked to a webmail server and requires some Javascript knowledge.
 ## Deployment
 The site was deployed to GitHub pages. Every change has been added, commited and pushed onto the GitHub platform.
 
@@ -70,7 +68,12 @@ All others content was written by me.
 #### Media
 Home Section picture (Arthur's picture) was taken by me.
 
-Professional Skillset picture was obtained from [Code Institute](https://codeinstitute.net/)
+Professional Skillset picture was obtained from [Code Institute](https://codeinstitute.net/).
 
-All others images came from [Unsplash](https://unsplash.com/.)
+All others images came from [Unsplash](https://unsplash.com/.).
 
+## Screenshots
+![](/assets/images/Screen1)
+![](/assets/images/Screen2)
+![](/assets/images/Screen3)
+![](/assets/images/Screen4)
