@@ -18,8 +18,8 @@ The idea of creating this website is to approach me to future employers and clie
 
 ##### As a business owner:
 - I would like to present myself and my skills on the website clearly to employers and clients.
-- I need to make sure that my current and new customers will find a professional information about me.
-- I want my customers to be able to learn how to use my website intuitively and easily.
+- I need to make sure that my current and new clients will find a professional information about me.
+- I want my clients to be able to learn how to use my website intuitively and easily.
 - I would to like maintain relationship with potential employers and clients.
 
 ##### As a prospective employer:

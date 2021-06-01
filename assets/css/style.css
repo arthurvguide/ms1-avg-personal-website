@@ -27,7 +27,6 @@ h4, h5, h6, p, li{
     text-transform: uppercase;
 }
 
-
 a {
   color:black;
 }
@@ -41,9 +40,6 @@ i {
 .justify {
     text-align: justify;
 }
-
-
-
 
 /*  Top Nav bar   */
 .navbar {
@@ -145,7 +141,6 @@ i {
   text-align: justify;
   
 }
-
 
 /*Portifolio Section*/
 
