@@ -1,7 +1,7 @@
 # [Arthur's Portfolio](https://arthurvguide.github.io/ms1-avg-personal-website/)
 ![](/assets/images/ResponsiveIWebSiteImg.JPG)
 
-Arthur's Portfolio is a site created to be used as introducer for my future employers and clients. They will be able to find out professional information about me and all the projects I worked on as a software developer so far. It can be viewed on the follow [link](https://arthurvguide.github.io/ms1-avg-personal-website/.).
+Arthur's Portfolio is a site created to be used as an introducer for my future employers and clients. They will be able to find out professional information about me and all the projects I have worked on as a software developer so far. It can be viewed on the following [link](https://arthurvguide.github.io/ms1-avg-personal-website/.).
 
 ---
 # Table of contents
@@ -158,16 +158,16 @@ I used push command in Gitpod to save changes into GitHub.
 ## Credits
 
 #### Content
- Content for Education Section was obtained from [Code Institute](https://codeinstitute.net/)
+ * Content for Education Section was obtained from [Code Institute](https://codeinstitute.net/)
 
- All others content was written by me.
+ * All others content was written by me.
 
 #### Media
- Home Section picture (Arthur's picture) was taken by me.
+ * Home Section picture (Arthur's picture) was taken by me.
 
- Professional Skillset picture was obtained from [Code Institute](https://codeinstitute.net/).
+ * Professional Skillset picture was obtained from [Code Institute](https://codeinstitute.net/).
 
- All others images came from [Unsplash](https://unsplash.com/.).
+ * All others images came from [Unsplash](https://unsplash.com/.).
 
 [Back to Table of contents](#table-of-contents)
 
