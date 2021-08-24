@@ -1,6 +1,8 @@
 # [Arthur's Portfolio](https://arthurvguide.github.io/ms1-avg-personal-website/)
 ![](/assets/images/ResponsiveIWebSiteImg.JPG)
+
 Arthur's Portfolio is a site created to be used as introducer for my future employers and clients. They will be able to find out professional information about me and all the projects I worked on as a software developer so far. It can be viewed on the follow [link](https://arthurvguide.github.io/ms1-avg-personal-website/.).
+
 ---
 # Table of contents
 
