@@ -1,7 +1,21 @@
 # [Arthur's Portfolio](https://arthurvguide.github.io/ms1-avg-personal-website/)
 ![](/assets/images/ResponsiveIWebSiteImg.JPG)
 Arthur's Portfolio is a site created to be used as introducer for my future employers and clients. They will be able to find out professional information about me and all the projects I worked on as a software developer so far. It can be viewed on the follow [link](https://arthurvguide.github.io/ms1-avg-personal-website/.).
+---
+# Table of contents
 
+- [UX](#ux)
+    - [Website owner business goals](#website-owner-business-goals)
+    - [User goals](#user-goals)
+    - [Structure](#structure)
+    - [Wireframes](#wireframes)
+    - [Surface](#surface)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Screenshots](#screenshots)
 
 ## UX
 
@@ -28,7 +42,9 @@ The idea of creating this website is to approach me to future employers and clie
  - I would like to take a look at Arthur's projects.
  - I want to get in touch with Arthur.
 
-## Structure
+[Back to Table of contents](#table-of-contents)
+
+### Structure
 
 ### Wireframes
  There are two wireframes guided the end design of this project, one for mobile devices, and the second scales up this for larger devices both made using balsamiq.
@@ -36,6 +52,8 @@ The idea of creating this website is to approach me to future employers and clie
  [Large-Devices](/assets/download/Large-Screen.pdf)
 
  [Small-Devices](/assets/download/Small-Screen.pdf)
+
+[Back to Table of contents](#table-of-contents)
 
 ### Surface
 
@@ -46,10 +64,12 @@ The idea of creating this website is to approach me to future employers and clie
 #### Fonts
 - For titles: Montserrat, sans-serif;
 
- - For sub-titles and paragraphs: Quicksand, sans-serif;
+- For sub-titles and paragraphs: Quicksand, sans-serif;
 
 #### Images
  Images come from [Unsplash](https://unsplash.com/.).
+
+[Back to Table of contents](#table-of-contents)
 
 ## Features
 
@@ -83,7 +103,7 @@ On this section user will be able to contact me using my contact form.
 #### Footer
  On this section user will be able to access my social media links.
 
-
+[Back to Table of contents](#table-of-contents)
 
 ## Technologies
  - HTML: Used to build all the webpage of this website.
@@ -98,6 +118,8 @@ On this section user will be able to contact me using my contact form.
 
  - [Github](www.github.com.): provides hosting for software development version control using Git. 
 
+[Back to Table of contents](#table-of-contents)
+
 ## Testing
  - The HTML code was tested using the W3C Markup Validation Service. It has passed with no errors, but one warning about my Landscape Section (not relevant).
 
@@ -108,6 +130,8 @@ On this section user will be able to contact me using my contact form.
  - Both links to download a PDF of my CV in a new tab and leaves the website visible in its existing tab.
 
  - ** My contact form is not currently submitting as it is not linked to a webmail server and requires some Javascript knowledge.
+
+[Back to Table of contents](#table-of-contents)
 
 ## Deployment 
  The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
@@ -143,8 +167,12 @@ I used push command in Gitpod to save changes into GitHub.
 
  All others images came from [Unsplash](https://unsplash.com/.).
 
+[Back to Table of contents](#table-of-contents)
+
 ## Screenshots
 ![](/assets/images/Screen1.JPG)
 ![](/assets/images/Screen2.JPG)
 ![](/assets/images/Screen3.JPG)
 ![](/assets/images/Screen4.JPG)
+
+[Back to Table of contents](#table-of-contents)
