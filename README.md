@@ -1,109 +1,115 @@
-# Arthur's Portfolio
-![](/assets/images/ResponsiveIWebSiteImg.JPG)
-Arthur's Portfolio is a site created to be used as introducer for my future employers and clients. They will be able to find out professional information about me and all the projects I worked on as a software developer so far. It can be viewed on the follow [link](https://arthurvguide.github.io/ms1-avg-personal-website/.).
+# [Arthur's Portfolio](https://arthurvguide.github.io/ms1-avg-personal-website/)
+ ![](/assets/images/ResponsiveIWebSiteImg.JPG)
+ Arthur's Portfolio is a site created to be used as introducer for my future employers and clients. They will be able to find out professional information about me and all the projects I worked on as a software developer so far. It can be viewed on the follow [link](https://arthurvguide.github.io/ms1-avg-personal-website/.).
 
-## UX
 
-### Website owner business goals
-The idea of creating this website is to approach me to future employers and clients, having the opportunity to see my portfolio, subsequently wishing to hire me for a project, or for a permanent job offer as a software developer. The creating of this site itself already is a way to present my programming skills. 
+ ## UX
 
-#### User goals: 
+  ### Website owner business goals
+  The idea of creating this website is to approach me to future employers and clients, having the opportunity to see my portfolio, subsequently wishing to hire me for a project, or for a permanent job offer as a software developer. The creating of this site itself already is a way to present my programming skills. 
 
-- User is able to get to know a little about me.
-- User can find out professional and educational information about me.
-- User can take a look at my projects I have worked on.
-- User can send a message directly to me using a contact form.
+   #### User goals: 
 
-#### User stories
+  - User is able to get to know a little about me.
+  - User can find out professional and educational information about me.
+  - User can take a look at my projects I have worked on.
+  - User can send a message directly to me using a contact form.
 
-##### As a business owner:
-- I would like to present myself and my skills on the website clearly to employers and clients.
-- I need to make sure that my current and new clients will find a professional information about me.
-- I want my clients to be able to learn how to use my website intuitively and easily.
-- I would to like maintain relationship with potential employers and clients.
+   #### User stories
 
-##### As a prospective employer:
-- I wish to find professional information about Arthur.
-- I would like to take a look at Arthur's projects.
-- I want to get in touch with Arthur.
+    ##### As a business owner:
+    - I would like to present myself and my skills on the website clearly to employers and clients.
+    - I need to make sure that my current and new clients will find a professional information about me.
+    - I want my clients to be able to learn how to use my website intuitively and easily.
+    - I would to like maintain relationship with potential employers and clients.
 
-## Structure
-### Wireframes
-There are two wireframes guided the end design of this project, one for mobile devices, and the second scales up this for larger devices both made using balsamiq.
+    ##### As a prospective employer:
+    - I wish to find professional information about Arthur.
+    - I would like to take a look at Arthur's projects.
+    - I want to get in touch with Arthur.
 
-[Large-Devices](/assets/download/Large-Screen.pdf)
+ ## Structure
 
-[Small-Devices](/assets/download/Small-Screen.pdf)
+  ### Wireframes
+  There are two wireframes guided the end design of this project, one for mobile devices, and the second scales up this for larger devices both made using balsamiq.
 
-### Surface
-#### Colors
-- background color: #FFFFFF
-- font color: #000000
+  [Large-Devices](/assets/download/Large-Screen.pdf)
 
-#### Fonts
-For titles: Montserrat, sans-serif;
+  [Small-Devices](/assets/download/Small-Screen.pdf)
 
-For sub-titles and paragraphs: Quicksand, sans-serif;
+ ### Surface
+ #### Colors
+ - background color: #FFFFFF
+ - font color: #000000
 
-#### Images
-Images come from [Unsplash](https://unsplash.com/.).
-## Features
-### The website has below features:
-#### Navigation bar
-Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices by a change into a burger menu.
+ #### Fonts
+ - For titles: Montserrat, sans-serif;
 
-Navigation scheme:
-On left side there is a logo. It can be used as navigation link to the main page. On right side there are four links which contains: Home, Resume, Portfolio, Clients, Contact.
+ - For sub-titles and paragraphs: Quicksand, sans-serif;
 
-#### Home
-On this section there is a picture of mine and a brief introduction about me.
+ #### Images
+ Images come from [Unsplash](https://unsplash.com/.).
 
-#### Resume 
-On this section user will find information abou my education and about my professional skills as a software developer.
+ ## Features
 
-#### Portfolio
-On this section user will find all the projects I have worked so far as a software developer.
+ ### The website has below features:
 
-** Currently projects are fakes, I will add real projects in the future.
+ #### Navigation bar
+ - Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices by a change into a burger menu.
 
-#### Clients
-On this section user will find my clients testimonial.
+ - Navigation scheme:
+  On left side there is a logo. It can be used as navigation link to the main page. On right side there are four links which contains: Home, Resume, Portfolio, Clients, Contact.
 
-#### Contact 
-On this section user will be able to contact me using my contact form.
+ #### Home
+ On this section there is a picture of mine and a brief introduction about me.
 
-** Not working at the moment
+ #### Resume 
+ On this section user will find information abou my education and about my professional skills as a software developer.
 
-#### Footer
-On this section user will be able to access my social media links.
+ #### Portfolio
+ On this section user will find all the projects I have worked so far as a software developer.
+
+ ** Currently projects are fakes, I will add real projects in the future.
+
+ #### Clients
+ On this section user will find my clients testimonial.
+
+ #### Contact 
+ On this section user will be able to contact me using my contact form.
+
+ ** Not working at the moment
+
+ #### Footer
+ On this section user will be able to access my social media links.
 
 
 
 ## Technologies
-HTML: Used to build all the webpage of this website.
+ - HTML: Used to build all the webpage of this website.
 
-CSS: Used to style my webpages.
+ - CSS: Used to style my webpages.
 
-Balsamiq: Used to create wireframes to my project.
+ - Balsamiq: Used to create wireframes to my project.
 
-[Chrome Dev Tool](https://developers.google.com/web/tools/chrome-devtools.) : Used extensively to test and debug my code. 
+ - [Chrome Dev Tool](https://developers.google.com/web/tools/chrome-devtools.) : Used extensively to test and debug my code. 
 
-[Gitpod](www.gitpod.io.): is an online IDE for GitHub and GitLab that launches ready-to-code dev environments for any project with a single click. 
+ - [Gitpod](www.gitpod.io.): is an online IDE for GitHub and GitLab that launches ready-to-code dev environments for any project with a single click. 
 
-[Github](www.github.com.): provides hosting for software development version control using Git. 
-## Testing
-The HTML code was tested using the W3C Markup Validation Service. It has passed with no errors, but one warning about my Landscape Section (not relevant).
-The CSS code was tested using  W3C CSS Validation Service. It has passed with no errors. 
+ - [Github](www.github.com.): provides hosting for software development version control using Git. 
+ ## Testing
+ - The HTML code was tested using the W3C Markup Validation Service. It has passed with no errors, but one warning about my Landscape Section (not relevant).
 
-The Responsive Design was tested using Chrome Dev Tool and [MyScreenResolution](http://whatismyscreenresolution.net/multi-screen-test.). It looks responsive on mobile, tablets and large screen devices.
+ - The CSS code was tested using  W3C CSS Validation Service. It has passed with no errors. 
 
-Both links to download a PDF of my CV in a new tab and leaves the website visible in its existing tab.
+ - The Responsive Design was tested using Chrome Dev Tool and [MyScreenResolution](http://whatismyscreenresolution.net/multi-screen-test.). It looks responsive on mobile, tablets and large screen devices.
 
-** My contact form is not currently submitting as it is not linked to a webmail server and requires some Javascript knowledge.
-## Deployment
-The site was deployed to GitHub pages. Every change has been added, commited and pushed onto the GitHub platform.
+ - Both links to download a PDF of my CV in a new tab and leaves the website visible in its existing tab.
 
-To get my project deployed I had to open my GitHub repository, navigate to the Settings tab and then on GitHub Pages I selected the master branch. Once It has been done, the page refreshed with a link to be viewed. 
+ - ** My contact form is not currently submitting as it is not linked to a webmail server and requires some Javascript knowledge.
+ ## Deployment
+ The site was deployed to GitHub pages. Every change has been added, commited and pushed onto the GitHub platform.
+
+ To get my project deployed I had to open my GitHub repository, navigate to the Settings tab and then on GitHub Pages I selected the master branch. Once It has been done, the page refreshed with a link to be viewed. 
 
 [Arthur's Portfolio](https://arthurvguide.github.io/ms1-avg-personal-website/)
 
