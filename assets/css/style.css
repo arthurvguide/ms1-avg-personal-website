@@ -48,6 +48,10 @@ i {
   align-items: center;
   color:#070707;
   font-family:Montserrat, sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(180, 181, 181, 0.8);
 }
 .brand-title {
   font-size: 1.2rem;
@@ -117,11 +121,12 @@ i {
     background-image:  url("../images/landscapeimage.jpg");
    
     height: 50%;
-   width:100%;
+    width:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    z-index: -1;
   }
 
 /*Resume Section*/
