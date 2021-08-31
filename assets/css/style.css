@@ -345,6 +345,7 @@ body {
   
   .container-intro{
     padding:0;
+    margin-top: 50px;
   }
   .column {
     width: 100%;
